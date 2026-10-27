@@ -1,0 +1,42 @@
+{
+  "_comment": "Шаблон наклейки, снятый с мастер-файла Affinity (32x62 мм, 300 DPI). Все размеры в мм, цвета печати в CMYK (0-100), цвета превью в RGB (0-255).",
+
+  "template": "pipe-32x62",
+  "size": {"w": 32.0, "h": 62.0},
+  "corner_radius": 2.5,
+  "bleed": 1.5,
+
+  "fonts": ["fonts/Buyan-Regular.ttf", "fonts/Oswald-Light.ttf"],
+  "live_text_family": "Buyan",
+
+  "background": {"rgb": [0, 0, 0], "cmyk": [60, 40, 40, 100]},
+  "text_color": {"rgb": [255, 255, 255], "cmyk": [0, 0, 0, 0]},
+
+  "kant": {
+    "inset": 0.5,
+    "width": 0.6,
+    "fade_end": 0.97,
+    "_comment": "Кант — градиент снизу (полный цвет контура) вверх до цвета фона; fade_end — доля высоты, где цвет полностью уходит."
+  },
+
+  "circuits": {
+    "ГВС": {"title": "Горячее водоснабжение", "layer": "ГВС КРАСНЫЙ КАНТ", "rgb": [235, 0, 0],   "cmyk": [0, 100, 100, 0]},
+    "ХВС": {"title": "Холодное водоснабжение", "layer": "ХВС СИНИЙ КАНТ",  "rgb": [37, 113, 178], "cmyk": [85, 45, 0, 0]},
+    "РЕЦ": {"title": "Рециркуляция ГВС",       "layer": "РЕЦ ЗЕЛЕНЫЙ КАНТ", "rgb": [98, 201, 0],  "cmyk": [60, 0, 100, 0]}
+  },
+
+  "top":   {"cap": 3.4, "y_top": 2.6, "side_margin": 3.0, "tracking": 0.02},
+  "top2":  {"cap": 2.4, "gap": 1.0,   "side_margin": 3.0, "tracking": 0.02},
+  "small": {"cap": 1.8, "gap": 0.9,   "side_margin": 3.0, "tracking": 0.04},
+  "main":  {"cap": 7.6, "center_from_top": 37.5, "gap_after_top": 3.0, "bottom_margin": 3.5, "tracking": 0.02, "line_gap": 1.2},
+
+  "cut": {"spot_name": "CutContour", "cmyk": [0, 100, 0, 0], "line_width_pt": 0.25},
+
+  "sheets": {
+    "A4":   {"w": 210, "h": 297},
+    "A3":   {"w": 297, "h": 420},
+    "SRA3": {"w": 320, "h": 450},
+    "SRA3+": {"w": 330, "h": 488}
+  },
+  "sheet_defaults": {"format": "SRA3", "margin": 10.0, "gap": 4.0, "info_line": true}
+}

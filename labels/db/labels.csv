@@ -1,0 +1,4 @@
+﻿id,circuit,top,top2,small,main,template,status,source,created,note
+L0001,ГВС,КУХНЯ,,,КУХ.МОЙКА,pipe-32x62,affinity,affinity/КУХНЯ/ГВС КУХНЯ КУХ МОЙКА.af,2026-10-27,
+L0002,РЕЦ,КУХНЯ,,,КУХ.МОЙКА,pipe-32x62,affinity,affinity/КУХНЯ/РЕЦ КУХНЯ КУХ МОЙКА.af,2026-10-27,
+L0003,ХВС,КУХНЯ,,,ПЫЛЕСОС,pipe-32x62,affinity,affinity/КУХНЯ/ХВС КУХНЯ ПЫЛЕСОС.af,2026-10-27,
